@@ -1,0 +1,54 @@
+{
+    "sku": {
+        "name": "Premium_LRS",
+        "tier": "Premium"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/39eb4ad4-f5a9-4813-8078-1c71f0d5da3c/resourceGroups/ebenez_rg/providers/Microsoft.Storage/storageAccounts/bubblesk",
+    "name": "bubblesk",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "uksouth",
+    "tags": {
+        "displayName": "bubblesk"
+    },
+    "properties": {
+        "keyCreationTime": {
+            "key1": "2023-10-23T18:36:26.9972852Z",
+            "key2": "2023-10-23T18:36:26.9972852Z"
+        },
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_0",
+        "allowBlobPublicAccess": false,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2023-10-23T18:36:27.1691234Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2023-10-23T18:36:27.1691234Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2023-10-23T18:36:26.9191565Z",
+        "primaryEndpoints": {
+            "web": "https://bubblesk.z33.web.core.windows.net/",
+            "blob": "https://bubblesk.blob.core.windows.net/"
+        },
+        "primaryLocation": "uksouth",
+        "statusOfPrimary": "available"
+    }
+}
